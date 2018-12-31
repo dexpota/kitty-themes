@@ -18,29 +18,35 @@ func process_color(field: String, data: Data) {
     print("\(field) \(hex(color: color))");
 }
 
+func generate_conf_line(field: String, key: String, dictionary: NSDictionary){
+    if let data = dictionary[key] {
+        process_color(field: field, data: data as! Data)
+    }
+}
+
 func process(filename: String) {
-    let plist = NSDictionary(contentsOfFile: filename)
+    let plist = NSDictionary(contentsOfFile: filename)!
     
-    process_color(field: "background", data: plist!["BackgroundColor"] as! Data)
-    process_color(field: "foreground", data: plist!["TextColor"] as! Data)
-    process_color(field: "cursor", data: plist!["CursorColor"] as! Data)
-    process_color(field: "selection_background", data: plist!["SelectionColor"] as! Data)
-    process_color(field: "color0", data: plist!["ANSIBlackColor"] as! Data)
-    process_color(field: "color8", data: plist!["ANSIBrightBlackColor"] as! Data)
-    process_color(field: "color1", data: plist!["ANSIRedColor"] as! Data)
-    process_color(field: "color9", data: plist!["ANSIBrightRedColor"] as! Data)
-    process_color(field: "color2" , data: plist!["ANSIGreenColor"] as! Data)
-    process_color(field: "color10", data: plist!["ANSIBrightGreenColor"] as! Data)
-    process_color(field: "color3" , data: plist!["ANSIYellowColor"] as! Data)
-    process_color(field: "color11", data: plist!["ANSIBrightYellowColor"] as! Data)
-    process_color(field: "color4" , data: plist!["ANSIBlueColor"] as! Data)
-    process_color(field: "color12", data: plist!["ANSIBrightBlueColor"] as! Data)
-    process_color(field: "color5" , data: plist!["ANSIMagentaColor"] as! Data)
-    process_color(field: "color13", data: plist!["ANSIBrightMagentaColor"] as! Data)
-    process_color(field: "color6" , data: plist!["ANSICyanColor"] as! Data)
-    process_color(field: "color14", data: plist!["ANSIBrightCyanColor"] as! Data)
-    process_color(field: "color7" , data: plist!["ANSIWhiteColor"] as! Data)
-    process_color(field: "color15", data: plist!["ANSIBrightWhiteColor"] as! Data)
+    generate_conf_line(field: "background", key: "BackgroundColor", dictionary: plist)
+    generate_conf_line(field: "foreground", key: "TextColor", dictionary: plist)
+    generate_conf_line(field: "cursor", key: "CursorColor", dictionary: plist)
+    generate_conf_line(field: "selection_background", key: "SelectionColor", dictionary: plist)
+    generate_conf_line(field: "color0", key: "ANSIBlackColor", dictionary: plist)
+    generate_conf_line(field: "color8", key: "ANSIBrightBlackColor", dictionary: plist)
+    generate_conf_line(field: "color1", key: "ANSIRedColor", dictionary: plist)
+    generate_conf_line(field: "color9", key: "ANSIBrightRedColor", dictionary: plist)
+    generate_conf_line(field: "color2", key: "ANSIGreenColor", dictionary: plist)
+    generate_conf_line(field: "color10", key: "ANSIBrightGreenColor", dictionary: plist)
+    generate_conf_line(field: "color3", key: "ANSIYellowColor", dictionary: plist)
+    generate_conf_line(field: "color11", key: "ANSIBrightYellowColor", dictionary: plist)
+    generate_conf_line(field: "color4", key: "ANSIBlueColor", dictionary: plist)
+    generate_conf_line(field: "color12", key: "ANSIBrightBlueColor", dictionary: plist)
+    generate_conf_line(field: "color5", key: "ANSIMagentaColor", dictionary: plist)
+    generate_conf_line(field: "color13", key: "ANSIBrightMagentaColor", dictionary: plist)
+    generate_conf_line(field: "color6", key: "ANSICyanColor", dictionary: plist)
+    generate_conf_line(field: "color14", key: "ANSIBrightCyanColor", dictionary: plist)
+    generate_conf_line(field: "color7", key: "ANSIWhiteColor", dictionary: plist)
+    generate_conf_line(field: "color15", key: "ANSIBrightWhiteColor", dictionary: plist)
 }
 
 if (CommandLine.argc == 2) {
