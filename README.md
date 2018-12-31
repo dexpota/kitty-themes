@@ -1,4 +1,27 @@
 # kitty-themes
+> A collection of themes for the kitty terminal, for more information on the
+> terminal visit https://github.com/kovidgoyal/kitty
+
+## Installation
+
+1. Clone kitty-themes repository:
+
+```bash
+git clone --depth 1 git@github.com:dexpota/kitty-themes.git ./.config/kitty/kitty-themes
+```
+
+2. Choose a theme and create a symlink:
+
+```bash
+ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+``` 
+
+3. Add this line to your kitty.conf configuration file:
+```
+include ./theme.conf
+```
+
+## Previews
 
 ## 3024 Day
 ![image](previews/3024_Day.png)
