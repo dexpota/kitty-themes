@@ -49,25 +49,3 @@ if (CommandLine.argc == 2) {
 } else {
     print("Missing plist's path.")
 }
-
-
-
-/*let black = myDict!["ANSIBlackColor"]
-print(black)
-
-let color_black = NSKeyedUnarchiver.unarchiveObject(with: black as! Data) as! NSColor
-
-print(hex(color: color_black));
-
-for key in myDict!.allKeys(for: "ANSI*") {
-    
-    print(key)
-}
-
-print("Hello, World!")
-let nsd: NSData = NSData(base64Encoded: "YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKMHCA9VJG51bGzTCQoLDA0OVU5TUkdCXE5TQ29sb3JTcGFjZVYkY2xhc3NPECgwLjExMjc5NDMyNDggMC4xMTQwMDI5NzI4IDAuMDk4MzEzNTE3ODcAEAKAAtIQERITWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqISFFhOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZlctEXGFRyb290gAEIERojLTI3O0FITltijY+RlqGqsrW+0NPYAAAAAAAAAQEAAAAAAAAAGQAAAAAAAAAAAAAAAAAAANo=", options: NSData.Base64DecodingOptions.ignoreUnknownCharacters)!
-
-let loadedColor: NSColor =  NSKeyedUnarchiver.unarchiveObject(with: nsd as Data) as! NSColor
-
-print(loadedColor.colorSpace)  // "sRGB IEC61966-2.1 colorspace 1 0 0 1\n"
-*/
