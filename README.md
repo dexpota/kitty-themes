@@ -4,17 +4,25 @@
 
 ## Installation
 
-1. Clone kitty-themes repository:
+1. Clone the entire kitty-themes repository:
+    - clone the entire *kitty-themes* repository:
 
-```bash
-git clone --depth 1 git@github.com:dexpota/kitty-themes.git ./.config/kitty/kitty-themes
-```
+    ```bash
+    git clone --depth 1 git@github.com:dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+    ```
+
+   - or download just one theme:
+
+    ```bash
+    wget https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/3024_Day.conf -P ~/.config/kitty/kitty-themes
+    ```
 
 2. Choose a theme and create a symlink:
 
 ```bash
+cd ~/.config/kitty
 ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
-``` 
+```
 
 3. Add this line to your kitty.conf configuration file:
 ```
