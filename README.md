@@ -31,6 +31,12 @@ include ./theme.conf
 
 ## Previews
 
+You can try a theme by simply running
+
+```bash
+kitty @ set-colors -a "~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
+```
+
 ## 3024 Day
 ![image](previews/3024_Day.png)
 ## 3024 Night
