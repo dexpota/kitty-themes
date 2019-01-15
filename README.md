@@ -239,8 +239,8 @@ include ./theme.conf
 ![image](previews/Red_Alert.png)
 ## Red Sands
 ![image](previews/Red_Sands.png)
-## Relaxed
-![image](previews/Relaxed.png)
+## Relaxed Afterglow
+![image](previews/Relaxed_Afterglow.png)
 ## Renault Style
 ![image](previews/Renault_Style.png)
 ## Renault Style Light
