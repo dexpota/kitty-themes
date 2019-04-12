@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. Clone the entire kitty-themes repository:
+1. If you want to download and use one of these theme you have two options:
     - clone the entire *kitty-themes* repository:
 
     ```bash
