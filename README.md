@@ -2,6 +2,8 @@
 > A collection of themes for the kitty terminal, for more information on the
 > terminal visit https://github.com/kovidgoyal/kitty
 
+![](./.github/kitty-themes.jpg)
+
 ## Installation
 
 1. If you want to download and use one of these theme you have two options:
