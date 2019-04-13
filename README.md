@@ -40,6 +40,14 @@ ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
 include ./theme.conf
 ```
 
+## License
+
+All original content of this repository is licensed with the [MIT
+License](./LICENSE.md). Whenever possible the author of the theme is cited
+inside each theme configuration file, together with its license. Hit me up if
+you find your theme inside this repository and you want a proper citation.
+
+
 ## Previews
 
 If you have followed the [installation](#installation) instructions and cloned the entire repo,
