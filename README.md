@@ -1,8 +1,17 @@
+[1]: https://github.com/mbadolato/iTerm2-Color-Schemes
+
 # kitty-themes
 > A collection of themes for the kitty terminal, for more information on the
 > terminal visit https://github.com/kovidgoyal/kitty
 
-![](./.github/kitty-themes.jpg)
+[Bring me to the previews!](#previews)
+
+![kitty-themes](./.github/kitty-themes.jpg)
+
+In this repository you can find a set of themes to personalize your kitty
+terminal, these have been ported from [iTerm2-Color-Schemes][1]. You can find
+the previews for each theme in the [section](#previews) below or inside the
+[previews](./previews) directory.
 
 ## Installation
 
@@ -33,7 +42,8 @@ include ./theme.conf
 
 ## Previews
 
-You can try a theme by simply running
+If you have followed the [installation](#installation) instructions and cloned the entire repo,
+you can try a theme by simply running:
 
 ```bash
 kitty @ set-colors -a "~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
