@@ -1,8 +1,9 @@
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
 
 # kitty-themes
-> A collection of themes for the kitty terminal, for more information on the
-> terminal visit https://github.com/kovidgoyal/kitty
+> **Personalize** your *kitty* terminal and choose your theme from this awesome
+> collection, for more information on the terminal visit
+> https://github.com/kovidgoyal/kitty
 
 [Bring me to the previews!](#previews)
 
