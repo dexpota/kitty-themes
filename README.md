@@ -1,4 +1,5 @@
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
+[2]: https://github.com/stark/Color-Scripts/tree/master/color-scripts
 
 # kitty-themes
 > **Personalize** your *kitty* terminal and choose your theme from this awesome
@@ -64,6 +65,15 @@ the entire repo, you have two options to try a theme:
   ```bash
   kitty -o include="~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
   ```
+
+### Bonus
+
+Try your new theme with one of the scripts in [Color-scripts][2] with this
+one-liner:
+
+```bash
+wget -q -O - $(curl -s https://api.github.com/repos/stark/Color-Scripts/contents/color-scripts | jq '.[] | "\(.path) \(.download_url)"' -r | shuf -n1 | cut -d " " -f2) | bash
+```
 
 ## 3024 Day
 [![image](previews/3024_Day.png)](themes/3024_Day.conf)
