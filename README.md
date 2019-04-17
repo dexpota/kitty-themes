@@ -387,5 +387,9 @@ wget -q -O - $(curl -s https://api.github.com/repos/stark/Color-Scripts/contents
 [![image](previews/ayu.png)](themes/ayu.conf)
 ## ayu light
 [![image](previews/ayu_light.png)](themes/ayu_light.conf)
+## gruvbox light
+[![image](previews/gruvbox_light.png)](themes/gruvbox_light.conf)
+## gruvbox dark
+[![image](previews/gruvbox_dark.png)](themes/gruvbox_dark.conf)
 ## idleToes
 [![image](previews/idleToes.png)](themes/idleToes.conf)
