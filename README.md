@@ -1,10 +1,14 @@
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
 [2]: https://github.com/stark/Color-Scripts/tree/master/color-scripts
+[license]: https://opensource.org/licenses/MIT
+[license-badge]:  https://img.shields.io/github/license/dexpota/kitty-themes.svg?style=for-the-badge
 
 # kitty-themes
 > **Personalize** your *kitty* terminal and choose your theme from this awesome
 > collection, for more information on the terminal visit
 > https://github.com/kovidgoyal/kitty
+
+[![License: MIT][license-badge]][license]
 
 [Bring me to the previews!](#previews)
 
