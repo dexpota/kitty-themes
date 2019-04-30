@@ -269,6 +269,8 @@ wget -q -O - $(curl -s https://api.github.com/repos/stark/Color-Scripts/contents
 [![image](previews/OceanicMaterial.png)](themes/OceanicMaterial.conf)
 ## Ollie
 [![image](previews/Ollie.png)](themes/Ollie.conf)
+## OneDark
+[![image](previews/OneDark.png)](themes/OneDark.conf)
 ## Parasio Dark
 [![image](previews/Parasio_Dark.png)](themes/Parasio_Dark.conf)
 ## PaulMillr
