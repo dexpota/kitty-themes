@@ -393,6 +393,8 @@ wget -q -O - $(curl -s https://api.github.com/repos/stark/Color-Scripts/contents
 [![image](previews/ayu.png)](themes/ayu.conf)
 ## ayu light
 [![image](previews/ayu_light.png)](themes/ayu_light.conf)
+## ayu mirage 
+[![image](previews/ayu_mirage.png)](themes/ayu_mirage.conf)
 ## gruvbox light
 [![image](previews/gruvbox_light.png)](themes/gruvbox_light.conf)
 ## gruvbox dark
