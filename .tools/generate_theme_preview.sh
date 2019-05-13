@@ -9,7 +9,7 @@ id=$(kitty @ new-window --title themes --window-type os --cwd "$tools")
 # get system id of the new created window
 sys_id=$(./windowid.swift "kitty" "themes")
 # start bash without reading the profile nor the configuration
-kitty @ send-text --match id:$id "/usr/local/bin/bash --noprofile --norc\n"
+kitty @ send-text --match id:$id "/usr/bin/env bash --noprofile --norc\n"
 
 # save all preview in this directory
 previews="$root/_previews"
