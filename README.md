@@ -23,11 +23,14 @@ the previews for each theme in the [section](#previews) below or inside the
 
 1. If you want to download and use one of these theme you have two options:
     - clone the entire *kitty-themes* repository:
-
-    ```bash
-    git clone --depth 1 git@github.com:dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
-    ```
-
+        ```bash
+        git clone --depth 1 git@github.com:dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+        ```
+        - Note that this will not download the previews, if you want to you can use these commands:
+            ```bash
+            git lfs fetch -a && git lfs checkout
+            ```
+    
    - or download just one theme:
 
     ```bash
