@@ -22,6 +22,5 @@ theme=$1
 
 preview_filename=$(basename ${theme%.*})
 kitty @ set-colors --match id:$id "$theme"
-kitty @ send-text --match id:$id "clear\n"
-kitty @ send-text --match id:$id "./color_table.sh && echo -e '\\e[1S'\n"
+kitty @ send-text --match id:$id "clear && ./color_table.sh\n"
 screencapture -l$sys_id "$previews/$preview_filename.png"
