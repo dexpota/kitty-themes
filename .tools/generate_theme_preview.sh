@@ -19,8 +19,9 @@ fi
 
 # read theme path from args
 theme=$1
-
+lockfile=$(mktemp)
 preview_filename=$(basename ${theme%.*})
 kitty @ set-colors --match id:$id "$theme"
-kitty @ send-text --match id:$id "clear && ./color_table.sh\n"
-screencapture -l$sys_id "$previews/$preview_filename.png"
+kitty @ send-text --match id:$id "clear && ./color_table.sh && rm \"$lockfile\"\n"
+
+fswatch -1 -e Removed "$lockfile" > /dev/null && screencapture -l$sys_id "$previews/$preview_filename.png"
