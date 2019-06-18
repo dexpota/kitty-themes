@@ -9,6 +9,7 @@ themes="$root/themes"
 id=$(kitty @ new-window --title themes --window-type os --cwd "$tools")
 # start bash without reading the profile nor the configuration
 kitty @ send-text --match id:"$id" "/usr/bin/env bash --noprofile --norc\n"
+kitty @ set-font-size 24
 
 # save all preview in this directory
 previews="$root/_previews"
@@ -19,5 +20,12 @@ fi
 
 find "$themes" -name "*.conf" -print0 | while read -d $'\0' -r theme; do
 	echo "Genereting theme preview for $theme"
-	./generate_theme_preview.sh "$id" "$theme" "$previews"
+	preview_directory=$previews/$(basename "${theme%.*}")
+	[ ! -d "$preview_directory" ] && mkdir "$preview_directory"
+	preview_filename=$previews/$(basename "${theme%.*}")/preview.png
+	./generate_theme_preview.sh "$id" "$theme" "$preview_filename"
+	mogrify -resize 1024x\> "$preview_filename"
 done
+
+kitty @ close-window --match id:"$id"
+kitty @ set-font-size 16
