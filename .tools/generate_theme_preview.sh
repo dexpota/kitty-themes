@@ -19,4 +19,4 @@ kitty @ set-colors --match id:"$id" "$theme"
 kitty @ send-text --match id:"$id" "clear && figlet -f digital -t \"$conf_filename\" && unbuffer ./color_table.sh && rm \"$lockf\""
 
 # simple sync mechanism, wait for the lockfile to be removed
-( echo "$lockfile" | entr "false" ) || capture themes "$preview_filename"
+( echo "$lockfile" | entr "false" 1>/dev/null 2>&1 ) || capture themes "$preview_filename"
