@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # This script generate all preview images for the themes
+# In order to capture previews without the to bar start kitty without decorations
+# kitty -o hide_window_decorations=yes
 
 
 function capture_linux() {
@@ -13,7 +15,7 @@ function capture_osx() {
 	local output="$2"
 	# get system id of the new created window
 	sys_id=$(./windowid.swift "kitty" "$title")
-	screencapture -l$sys_id "$output" 
+	screencapture -wl$sys_id "$output"
 }
 
 
