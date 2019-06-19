@@ -2,6 +2,7 @@
 [2]: https://github.com/stark/Color-Scripts/tree/master/color-scripts
 [license]: https://opensource.org/licenses/MIT
 [license-badge]:  https://img.shields.io/github/license/dexpota/kitty-themes.svg?style=for-the-badge
+[kitty-themes-previews]: https://github.com/dexpota/kitty-themes-website/tree/master/previews
 
 # kitty-themes
 > **Personalize** your *kitty* terminal and choose your theme from this awesome
@@ -16,26 +17,20 @@
 
 In this repository you can find a set of themes to personalize your kitty
 terminal, these have been ported from [iTerm2-Color-Schemes][1]. You can find
-the previews for each theme in the [section](#previews) below or inside the
-[previews](./previews) directory.
+the previews for each theme in the [section](#previews) below or in this other
+[repository](kitty-themes-previews).
 
 ## Installation
 
 1. If you want to download and use one of these theme you have two options:
     - clone the entire *kitty-themes* repository:
-        ```bash
-        git clone --depth 1 git@github.com:dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
-        ```
-        - Note that this will not download the previews, if you want to you can use these commands:
-            ```bash
-            git lfs fetch -a && git lfs checkout
-            ```
-
+      ```bash
+      git clone --depth 1 git@github.com:dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+      ```
    - or download just one theme:
-
-    ```bash
-    wget https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/3024_Day.conf -P ~/.config/kitty/kitty-themes
-    ```
+      ```bash
+      wget https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/3024_Day.conf -P ~/.config/kitty/kitty-themes
+      ```
 
 2. Choose a theme and create a symlink:
 
@@ -55,7 +50,6 @@ All original content of this repository is licensed with the [MIT
 License](./LICENSE.md). Whenever possible the author of the theme is cited
 inside each theme configuration file, together with its license. Hit me up if
 you find your theme inside this repository and you want a proper citation.
-
 
 ## Previews
 
