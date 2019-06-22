@@ -11,7 +11,10 @@
 
 [![License: MIT][license-badge]][license]
 
-[Bring me to the previews!](#previews)
+- [About](#about)
+- [Installation](#installation)
+- [License](#license)
+- [Bring me to the previews!](#previews)
 
 ![kitty-themes](./.github/kitty-themes.jpg)
 
@@ -82,327 +85,327 @@ one-liner:
 wget -q -O - $(curl -s https://api.github.com/repos/stark/Color-Scripts/contents/color-scripts | jq '.[] | "\(.path) \(.download_url)"' -r | shuf -n1 | cut -d " " -f2) | bash
 ```
 
-## 3024 Day
+### 3024 Day
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/3024_Day/preview.png)
-## 3024 Night
+### 3024 Night
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/3024_Night/preview.png)
-## AdventureTime
+### AdventureTime
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/AdventureTime/preview.png)
-## Afterglow
+### Afterglow
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Afterglow/preview.png)
-## AlienBlood
+### AlienBlood
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/AlienBlood/preview.png)
-## Alucard
+### Alucard
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Alucard/preview.png)
-## Argonaut
+### Argonaut
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Argonaut/preview.png)
-## Arthur
+### Arthur
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Arthur/preview.png)
-## AtelierSulphurpool
+### AtelierSulphurpool
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/AtelierSulphurpool/preview.png)
-## Atom
+### Atom
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Atom/preview.png)
-## AtomOneLight
+### AtomOneLight
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/AtomOneLight/preview.png)
-## Batman
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Batman/preview.png)
-## Belafonte Day
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Belafonte_Day/preview.png)
-## Belafonte Night
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Belafonte_Night/preview.png)
-## BirdsOfParadise
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/BirdsOfParadise/preview.png)
-## Blazer
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Blazer/preview.png)
-## Borland
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Borland/preview.png)
-## Bright Lights
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Bright_Lights/preview.png)
-## Broadcast
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Broadcast/preview.png)
-## Brogrammer
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Brogrammer/preview.png)
-## C64
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/C64/preview.png)
-## CLRS
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/CLRS/preview.png)
-## Chalk
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Chalk/preview.png)
-## Chalkboard
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Chalkboard/preview.png)
-## Ciapre
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ciapre/preview.png)
-## Cobalt2
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Cobalt2/preview.png)
-## Cobalt Neon
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Cobalt_Neon/preview.png)
-## CrayonPonyFish
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/CrayonPonyFish/preview.png)
-## Dark Pastel
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Dark_Pastel/preview.png)
-## Darkside
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Darkside/preview.png)
-## Desert
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Desert/preview.png)
-## DimmedMonokai
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/DimmedMonokai/preview.png)
-## DotGov
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/DotGov/preview.png)
-## Dracula
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Dracula/preview.png)
-## Dumbledore
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Dumbledore/preview.png)
-## Duotone Dark
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Duotone_Dark/preview.png)
-## ENCOM
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/ENCOM/preview.png)
-## Earthsong
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Earthsong/preview.png)
-## Elemental
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Elemental/preview.png)
-## Espresso
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Espresso/preview.png)
-## Espresso Libre
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Espresso_Libre/preview.png)
-## Fideloper
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Fideloper/preview.png)
-## FishTank
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/FishTank/preview.png)
-## Flat
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Flat/preview.png)
-## Flatland
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Flatland/preview.png)
-## Floraverse
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Floraverse/preview.png)
-## FrontEndDelight
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/FrontEndDelight/preview.png)
-## FunForrest
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/FunForrest/preview.png)
-## Galaxy
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Galaxy/preview.png)
-## Github
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Github/preview.png)
-## Glacier
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Glacier/preview.png)
-## GoaBase
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/GoaBase/preview.png)
-## Grape
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Grape/preview.png)
-## Grass
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Grass/preview.png)
-## Hardcore
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hardcore/preview.png)
-## Harper
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Harper/preview.png)
-## Highway
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Highway/preview.png)
-## Hipster Green
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hipster_Green/preview.png)
-## Homebrew
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Homebrew/preview.png)
-## Hurtado
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hurtado/preview.png)
-## Hybrid
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hybrid/preview.png)
-## IC Green PPL
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/IC_Green_PPL/preview.png)
-## IC Orange PPL
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/IC_Orange_PPL/preview.png)
-## IR Black
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/IR_Black/preview.png)
-## Jackie Brown
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Jackie_Brown/preview.png)
-## Japanesque
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Japanesque/preview.png)
-## Jellybeans
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Jellybeans/preview.png)
-## JetBrains Darcula
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/JetBrains_Darcula/preview.png)
-## Kibble
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Kibble/preview.png)
-## Later This Evening
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Later_This_Evening/preview.png)
-## Lavandula
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Lavandula/preview.png)
-## LiquidCarbon
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/LiquidCarbon/preview.png)
-## LiquidCarbonTransparent
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/LiquidCarbonTransparent/preview.png)
-## LiquidCarbonTransparentInverse
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/LiquidCarbonTransparentInverse/preview.png)
-## Man Page
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Man_Page/preview.png)
-## Material
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Material/preview.png)
-## MaterialDark
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/MaterialDark/preview.png)
-## Mathias
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Mathias/preview.png)
-## Medallion
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Medallion/preview.png)
-## Misterioso
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Misterioso/preview.png)
-## Molokai
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Molokai/preview.png)
-## MonaLisa
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/MonaLisa/preview.png)
-## Monokai Pro (Filter Spectrum)
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro_(Filter_Spectrum)/preview.png)
-## Monokai Soda
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Soda/preview.png)
-## N0tch2k
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/N0tch2k/preview.png)
-## Neopolitan
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Neopolitan/preview.png)
-## Neutron
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Neutron/preview.png)
-## NightLion v1
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/NightLion_v1/preview.png)
-## NightLion v2
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/NightLion_v2/preview.png)
-## Nova
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Nova/preview.png)
-## Novel
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Novel/preview.png)
-## Obsidian
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Obsidian/preview.png)
-## Ocean
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ocean/preview.png)
-## OceanicMaterial
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/OceanicMaterial/preview.png)
-## Ollie
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ollie/preview.png)
-## OneDark
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/OneDark/preview.png)
-## Parasio Dark
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Parasio_Dark/preview.png)
-## PaulMillr
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/PaulMillr/preview.png)
-## PencilDark
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/PencilDark/preview.png)
-## PencilLight
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/PencilLight/preview.png)
-## Piatto Light
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Piatto_Light/preview.png)
-## Pnevma
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Pnevma/preview.png)
-## Pro
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Pro/preview.png)
-## Red Alert
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Red_Alert/preview.png)
-## Red Sands
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Red_Sands/preview.png)
-## Relaxed Afterglow
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Relaxed_Afterglow/preview.png)
-## Renault Style
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Renault_Style/preview.png)
-## Renault Style Light
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Renault_Style_Light/preview.png)
-## Rippedcasts
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Rippedcasts/preview.png)
-## Royal
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Royal/preview.png)
-## SeaShells
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SeaShells/preview.png)
-## Seafoam Pastel
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Seafoam_Pastel/preview.png)
-## Seti
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Seti/preview.png)
-## Shaman
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Shaman/preview.png)
-## Slate
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Slate/preview.png)
-## Smyck
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Smyck/preview.png)
-## SoftServer
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SoftServer/preview.png)
-## Solarized Darcula
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Darcula/preview.png)
-## Solarized Dark
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Dark/preview.png)
-## Solarized Dark - Patched
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Dark_-_Patched/preview.png)
-## Solarized Dark Higher Contrast
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Dark_Higher_Contrast/preview.png)
-## Solarized Light
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Light/preview.png)
-## Source Code X
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Source_Code_X/preview.png)
-## SpaceGray
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SpaceGray/preview.png)
-## SpaceGray Eighties
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SpaceGray_Eighties/preview.png)
-## SpaceGray Eighties Dull
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SpaceGray_Eighties_Dull/preview.png)
-## Spacedust
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Spacedust/preview.png)
-## Spiderman
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Spiderman/preview.png)
-## Spring
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Spring/preview.png)
-## Square
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Square/preview.png)
-## Sundried
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Sundried/preview.png)
-## Symfonic
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Symfonic/preview.png)
-## Tango Dark
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tango_Dark/preview.png)
-## Tango Light
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tango_Light/preview.png)
-## Teerb
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Teerb/preview.png)
-## Thayer Bright
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Thayer_Bright/preview.png)
-## The Hulk
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/The_Hulk/preview.png)
-## Tomorrow
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow/preview.png)
-## Tomorrow Night
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night/preview.png)
-## Tomorrow Night Blue
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night_Blue/preview.png)
-## Tomorrow Night Bright
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night_Bright/preview.png)
-## Tomorrow Night Eighties
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night_Eighties/preview.png)
-## ToyChest
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/ToyChest/preview.png)
-## Treehouse
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Treehouse/preview.png)
-## Twilight
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Twilight/preview.png)
-## Ubuntu
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ubuntu/preview.png)
-## Urple
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Urple/preview.png)
-## Vaughn
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Vaughn/preview.png)
-## VibrantInk
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/VibrantInk/preview.png)
-## WarmNeon
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/WarmNeon/preview.png)
-## Wez
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Wez/preview.png)
-## WildCherry
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/WildCherry/preview.png)
-## Wombat
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Wombat/preview.png)
-## Wryan
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Wryan/preview.png)
-## Zenburn
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Zenburn/preview.png)
-## ayu
+### ayu
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/ayu/preview.png)
-## ayu light
+### ayu light
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/ayu_light/preview.png)
-## ayu mirage
+### ayu mirage
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/ayu_mirage/preview.png)
-## gruvbox dark
+### Batman
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Batman/preview.png)
+### Belafonte Day
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Belafonte_Day/preview.png)
+### Belafonte Night
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Belafonte_Night/preview.png)
+### BirdsOfParadise
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/BirdsOfParadise/preview.png)
+### Blazer
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Blazer/preview.png)
+### Borland
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Borland/preview.png)
+### Bright Lights
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Bright_Lights/preview.png)
+### Broadcast
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Broadcast/preview.png)
+### Brogrammer
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Brogrammer/preview.png)
+### C64
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/C64/preview.png)
+### Chalk
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Chalk/preview.png)
+### Chalkboard
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Chalkboard/preview.png)
+### Ciapre
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ciapre/preview.png)
+### CLRS
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/CLRS/preview.png)
+### Cobalt2
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Cobalt2/preview.png)
+### Cobalt Neon
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Cobalt_Neon/preview.png)
+### CrayonPonyFish
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/CrayonPonyFish/preview.png)
+### Dark Pastel
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Dark_Pastel/preview.png)
+### Darkside
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Darkside/preview.png)
+### Desert
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Desert/preview.png)
+### DimmedMonokai
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/DimmedMonokai/preview.png)
+### DotGov
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/DotGov/preview.png)
+### Dracula
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Dracula/preview.png)
+### Dumbledore
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Dumbledore/preview.png)
+### Duotone Dark
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Duotone_Dark/preview.png)
+### Earthsong
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Earthsong/preview.png)
+### Elemental
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Elemental/preview.png)
+### ENCOM
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/ENCOM/preview.png)
+### Espresso
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Espresso/preview.png)
+### Espresso Libre
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Espresso_Libre/preview.png)
+### Fideloper
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Fideloper/preview.png)
+### FishTank
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/FishTank/preview.png)
+### Flat
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Flat/preview.png)
+### Flatland
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Flatland/preview.png)
+### Floraverse
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Floraverse/preview.png)
+### FrontEndDelight
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/FrontEndDelight/preview.png)
+### FunForrest
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/FunForrest/preview.png)
+### Galaxy
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Galaxy/preview.png)
+### Github
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Github/preview.png)
+### Glacier
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Glacier/preview.png)
+### GoaBase
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/GoaBase/preview.png)
+### Grape
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Grape/preview.png)
+### Grass
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Grass/preview.png)
+### gruvbox dark
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/gruvbox_dark/preview.png)
-## gruvbox light
+### gruvbox light
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/gruvbox_light/preview.png)
-## idleToes
+### Hardcore
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hardcore/preview.png)
+### Harper
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Harper/preview.png)
+### Highway
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Highway/preview.png)
+### Hipster Green
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hipster_Green/preview.png)
+### Homebrew
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Homebrew/preview.png)
+### Hurtado
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hurtado/preview.png)
+### Hybrid
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Hybrid/preview.png)
+### IC Green PPL
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/IC_Green_PPL/preview.png)
+### IC Orange PPL
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/IC_Orange_PPL/preview.png)
+### idleToes
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/idleToes/preview.png)
-## snazzy
+### IR Black
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/IR_Black/preview.png)
+### Jackie Brown
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Jackie_Brown/preview.png)
+### Japanesque
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Japanesque/preview.png)
+### Jellybeans
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Jellybeans/preview.png)
+### JetBrains Darcula
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/JetBrains_Darcula/preview.png)
+### Kibble
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Kibble/preview.png)
+### Later This Evening
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Later_This_Evening/preview.png)
+### Lavandula
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Lavandula/preview.png)
+### LiquidCarbon
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/LiquidCarbon/preview.png)
+### LiquidCarbonTransparent
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/LiquidCarbonTransparent/preview.png)
+### LiquidCarbonTransparentInverse
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/LiquidCarbonTransparentInverse/preview.png)
+### Man Page
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Man_Page/preview.png)
+### Material
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Material/preview.png)
+### MaterialDark
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/MaterialDark/preview.png)
+### Mathias
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Mathias/preview.png)
+### Medallion
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Medallion/preview.png)
+### Misterioso
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Misterioso/preview.png)
+### Molokai
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Molokai/preview.png)
+### MonaLisa
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/MonaLisa/preview.png)
+### Monokai Pro (Filter Spectrum)
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro_(Filter_Spectrum)/preview.png)
+### Monokai Soda
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Soda/preview.png)
+### N0tch2k
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/N0tch2k/preview.png)
+### Neopolitan
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Neopolitan/preview.png)
+### Neutron
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Neutron/preview.png)
+### NightLion v1
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/NightLion_v1/preview.png)
+### NightLion v2
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/NightLion_v2/preview.png)
+### Nova
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Nova/preview.png)
+### Novel
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Novel/preview.png)
+### Obsidian
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Obsidian/preview.png)
+### Ocean
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ocean/preview.png)
+### OceanicMaterial
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/OceanicMaterial/preview.png)
+### Ollie
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ollie/preview.png)
+### OneDark
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/OneDark/preview.png)
+### Parasio Dark
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Parasio_Dark/preview.png)
+### PaulMillr
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/PaulMillr/preview.png)
+### PencilDark
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/PencilDark/preview.png)
+### PencilLight
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/PencilLight/preview.png)
+### Piatto Light
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Piatto_Light/preview.png)
+### Pnevma
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Pnevma/preview.png)
+### Pro
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Pro/preview.png)
+### Red Alert
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Red_Alert/preview.png)
+### Red Sands
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Red_Sands/preview.png)
+### Relaxed Afterglow
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Relaxed_Afterglow/preview.png)
+### Renault Style
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Renault_Style/preview.png)
+### Renault Style Light
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Renault_Style_Light/preview.png)
+### Rippedcasts
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Rippedcasts/preview.png)
+### Royal
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Royal/preview.png)
+### Seafoam Pastel
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Seafoam_Pastel/preview.png)
+### SeaShells
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SeaShells/preview.png)
+### Seti
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Seti/preview.png)
+### Shaman
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Shaman/preview.png)
+### Slate
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Slate/preview.png)
+### Smyck
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Smyck/preview.png)
+### snazzy
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/snazzy/preview.png)
+### SoftServer
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SoftServer/preview.png)
+### Solarized Darcula
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Darcula/preview.png)
+### Solarized Dark
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Dark/preview.png)
+### Solarized Dark Higher Contrast
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Dark_Higher_Contrast/preview.png)
+### Solarized Dark - Patched
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Dark_-_Patched/preview.png)
+### Solarized Light
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Solarized_Light/preview.png)
+### Source Code X
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Source_Code_X/preview.png)
+### Spacedust
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Spacedust/preview.png)
+### SpaceGray
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SpaceGray/preview.png)
+### SpaceGray Eighties
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SpaceGray_Eighties/preview.png)
+### SpaceGray Eighties Dull
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/SpaceGray_Eighties_Dull/preview.png)
+### Spiderman
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Spiderman/preview.png)
+### Spring
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Spring/preview.png)
+### Square
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Square/preview.png)
+### Sundried
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Sundried/preview.png)
+### Symfonic
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Symfonic/preview.png)
+### Tango Dark
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tango_Dark/preview.png)
+### Tango Light
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tango_Light/preview.png)
+### Teerb
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Teerb/preview.png)
+### Thayer Bright
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Thayer_Bright/preview.png)
+### The Hulk
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/The_Hulk/preview.png)
+### Tomorrow
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow/preview.png)
+### Tomorrow Night
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night/preview.png)
+### Tomorrow Night Blue
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night_Blue/preview.png)
+### Tomorrow Night Bright
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night_Bright/preview.png)
+### Tomorrow Night Eighties
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Tomorrow_Night_Eighties/preview.png)
+### ToyChest
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/ToyChest/preview.png)
+### Treehouse
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Treehouse/preview.png)
+### Twilight
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Twilight/preview.png)
+### Ubuntu
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Ubuntu/preview.png)
+### Urple
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Urple/preview.png)
+### Vaughn
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Vaughn/preview.png)
+### VibrantInk
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/VibrantInk/preview.png)
+### WarmNeon
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/WarmNeon/preview.png)
+### Wez
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Wez/preview.png)
+### WildCherry
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/WildCherry/preview.png)
+### Wombat
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Wombat/preview.png)
+### Wryan
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Wryan/preview.png)
+### Zenburn
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Zenburn/preview.png)
