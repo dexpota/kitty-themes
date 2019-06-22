@@ -36,10 +36,10 @@ the previews for each theme in the [section](#previews) below or in this other
 
 2. Choose a theme and create a symlink:
 
-  ```bash
-  cd ~/.config/kitty
-  ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
-  ```
+    ```bash
+    cd ~/.config/kitty
+    ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+    ```
 
 3. Add this line to your kitty.conf configuration file:
 ```
