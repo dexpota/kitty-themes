@@ -34,7 +34,8 @@ the previews for each theme in the [section](#previews) below or in this other
       ```
    - or download just one theme:
       ```bash
-      wget https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/3024_Day.conf -P ~/.config/kitty/kitty-themes
+      THEME=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/3024_Day.conf
+      wget "$THEME" -P ~/.config/kitty/kitty-themes
       ```
 
 2. Choose a theme and create a symlink:
@@ -79,10 +80,11 @@ the entire repo, you have two options to try a theme:
 ### Bonus
 
 Try your new theme with one of the scripts in [Color-scripts][2] with this
-one-liner:
+one-liner (requires `jq`):
 
 ```bash
-wget -q -O - $(curl -s https://api.github.com/repos/stark/Color-Scripts/contents/color-scripts | jq '.[] | "\(.path) \(.download_url)"' -r | shuf -n1 | cut -d " " -f2) | bash
+COLOR_SCRIPT_REPO=https://api.github.com/repos/stark/Color-Scripts/contents/color-scripts
+wget -q -O - $(curl -s $COLOR_SCRIPT_REPO | jq '.[] | "\(.path) \(.download_url)"' -r | shuf -n1 | cut -d " " -f2) | bash
 ```
 
 ### 3024 Day
