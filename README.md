@@ -42,9 +42,10 @@ the previews for each theme in the [section](#previews) below or in this other
     ```
 
 3. Add this line to your kitty.conf configuration file:
-```
-include ./theme.conf
-```
+
+    ```
+    include ./theme.conf
+    ```
 
 ## License
 
@@ -59,15 +60,18 @@ If you have followed the [installation](#installation) instructions and cloned
 the entire repo, you have two options to try a theme:
 
 1. If you have enabled remote control in *kitty* you can run this command:
-  ```bash
-  kitty @ set-colors -a "~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
-  ```
+
+    ```bash
+    kitty @ set-colors -a "~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
+    ```
+
 2. Otherwise you can start another instance of kitty and specify another config
   file to read from, this will cause *kitty* to read both its normal config
   file and the specified one:
-  ```bash
-  kitty -o include="~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
-  ```
+
+    ```bash
+    kitty -o include="~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
+    ```
 
 ### Bonus
 
