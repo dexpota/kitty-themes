@@ -16,9 +16,9 @@
 - [License](#license)
 - [Bring me to the previews!](#previews)
 
-![kitty-themes](./.github/kitty-themes.jpg)
-
 ## About
+
+![kitty-themes](./.github/kitty-themes.jpg)
 
 In this repository you can find a set of themes to personalize your kitty
 terminal, these have been ported from [iTerm2-Color-Schemes][1]. You can find
