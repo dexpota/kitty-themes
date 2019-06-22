@@ -15,6 +15,8 @@
 
 ![kitty-themes](./.github/kitty-themes.jpg)
 
+## About
+
 In this repository you can find a set of themes to personalize your kitty
 terminal, these have been ported from [iTerm2-Color-Schemes][1]. You can find
 the previews for each theme in the [section](#previews) below or in this other
@@ -34,10 +36,10 @@ the previews for each theme in the [section](#previews) below or in this other
 
 2. Choose a theme and create a symlink:
 
-```bash
-cd ~/.config/kitty
-ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
-```
+  ```bash
+  cd ~/.config/kitty
+  ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+  ```
 
 3. Add this line to your kitty.conf configuration file:
 ```
