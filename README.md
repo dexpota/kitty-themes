@@ -50,6 +50,13 @@ the previews for each theme in the [section](#previews) below or in this other
     ```
     include ./theme.conf
     ```
+    
+If you using the ``conda`` package manager, you may also install these themes
+with the following command:
+
+    ```bash
+    $ conda install -c conda-forge kitty-themes
+    ```
 
 ## License
 
