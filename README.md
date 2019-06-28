@@ -13,6 +13,8 @@
 
 - [About](#about)
 - [Installation](#installation)
+  - [Source Code](#source-code)
+  - [conda](#conda)
 - [License](#license)
 - [Bring me to the previews!](#previews)
 
@@ -26,6 +28,8 @@ the previews for each theme in the [section](#previews) below or in this other
 [repository](kitty-themes-previews).
 
 ## Installation
+
+### Source Code
 
 1. If you want to download and use one of these theme you have two options:
     - clone the entire *kitty-themes* repository:
@@ -50,12 +54,14 @@ the previews for each theme in the [section](#previews) below or in this other
     ```
     include ./theme.conf
     ```
-    
+
+### Conda
+
 If you using the ``conda`` package manager, you may also install these themes
 with the following command:
 
     ```bash
-    $ conda install -c conda-forge kitty-themes
+    conda install -c conda-forge kitty-themes
     ```
 
 ## License
