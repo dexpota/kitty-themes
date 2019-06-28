@@ -14,7 +14,7 @@
 - [About](#about)
 - [Installation](#installation)
   - [Source Code](#source-code)
-  - [conda](#conda)
+  - [Conda](#conda)
 - [License](#license)
 - [Bring me to the previews!](#previews)
 
