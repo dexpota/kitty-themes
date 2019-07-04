@@ -4,7 +4,8 @@
 [license-badge]:  https://img.shields.io/github/license/dexpota/kitty-themes.svg?style=for-the-badge
 [kitty-themes-previews]: https://github.com/dexpota/kitty-themes-website/tree/master/previews
 
-# kitty-themes
+![kitty-themes](./.github/kitty-themes.jpg)
+
 > **Personalize** your *kitty* terminal and choose your theme from this awesome
 > collection, for more information on the terminal visit
 > https://github.com/kovidgoyal/kitty
@@ -19,8 +20,6 @@
 - [Bring me to the previews!](#previews)
 
 ## About
-
-![kitty-themes](./.github/kitty-themes.jpg)
 
 In this repository you can find a set of themes to personalize your kitty
 terminal, these have been ported from [iTerm2-Color-Schemes][1]. You can find
