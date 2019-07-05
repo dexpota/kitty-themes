@@ -17,6 +17,15 @@
       ]
     }
   ],
+  "types": {
+    "theme": {
+      "symbol": "😻",
+      "description": "New theme added to the collection.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+
+    }
+
+  },
   "contributorsPerLine": 7,
   "projectName": "kitty-themes",
   "projectOwner": "dexpota",
