@@ -1,5 +1,4 @@
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [2]: https://github.com/stark/Color-Scripts/tree/master/color-scripts
 [license]: https://opensource.org/licenses/MIT
 [license-badge]:  https://img.shields.io/github/license/dexpota/kitty-themes.svg?style=for-the-badge
@@ -12,6 +11,7 @@
 > https://github.com/kovidgoyal/kitty
 
 [![License: MIT][license-badge]][license]
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 - [About](#about)
 - [Installation](#installation)
