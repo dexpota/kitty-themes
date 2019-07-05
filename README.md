@@ -11,7 +11,7 @@
 > https://github.com/kovidgoyal/kitty
 
 [![License: MIT][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-green.svg?style=for-the-badge)](#contributors)
 
 - [About](#about)
 - [Installation](#installation)
