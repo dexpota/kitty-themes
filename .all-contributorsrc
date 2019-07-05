@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "scopatz",
+      "name": "Anthony Scopatz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/320553?v=4",
+      "profile": "http://www.scopatz.com",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "kitty-themes",
+  "projectOwner": "dexpota",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
