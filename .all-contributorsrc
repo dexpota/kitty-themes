@@ -15,20 +15,27 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "orangecoloured",
+      "name": "RCKT",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3314891?v=4",
+      "profile": "https://rckt.cc",
+      "contributions": [
+        "theme"
+      ]
     }
   ],
   "types": {
     "theme": {
       "symbol": "😻",
-      "description": "New theme added to the collection.",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
-
+      "description": "New theme added to the collection."
     }
-
   },
   "contributorsPerLine": 7,
   "projectName": "kitty-themes",
   "projectOwner": "dexpota",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "commitConvention": "none"
 }
