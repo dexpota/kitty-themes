@@ -1,4 +1,5 @@
 [1]: https://github.com/mbadolato/iTerm2-Color-Schemes
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [2]: https://github.com/stark/Color-Scripts/tree/master/color-scripts
 [license]: https://opensource.org/licenses/MIT
 [license-badge]:  https://img.shields.io/github/license/dexpota/kitty-themes.svg?style=for-the-badge
@@ -423,3 +424,15 @@ wget -q -O - $(curl -s $COLOR_SCRIPT_REPO | jq '.[] | "\(.path) \(.download_url)
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Wryan/preview.png)
 ### Zenburn
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Zenburn/preview.png)
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="http://www.scopatz.com"><img src="https://avatars2.githubusercontent.com/u/320553?v=4" width="100px;" alt="Anthony Scopatz"/><br /><sub><b>Anthony Scopatz</b></sub></a><br /><a href="https://github.com/dexpota/kitty-themes/commits?author=scopatz" title="Documentation">📖</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
