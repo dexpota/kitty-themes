@@ -2,6 +2,8 @@
   "files": [
     "README.md"
   ],
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-green.svg?style=for-the-badge)](#contributors)",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><b><%= contributor.name %></b></a><br /><%= contributions %>",
   "imageSize": 100,
   "commit": false,
   "contributors": [
