@@ -276,6 +276,8 @@ wget -q -O - $(curl -s $COLOR_SCRIPT_REPO | jq '.[] | "\(.path) \(.download_url)
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Molokai/preview.png)
 ### MonaLisa
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/MonaLisa/preview.png)
+### Monokai Pro
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai/preview.png)
 ### Monokai Pro (Filter Spectrum)
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro_(Filter_Spectrum)/preview.png)
 ### Monokai Soda
