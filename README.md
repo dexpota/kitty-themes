@@ -11,7 +11,7 @@
 > https://github.com/kovidgoyal/kitty
 
 [![License: MIT][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-green.svg?style=for-the-badge)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-green.svg?style=for-the-badge)](#contributors)
 
 - [About](#about)
 - [Installation](#installation)
@@ -435,6 +435,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.scopatz.com"><b>Anthony Scopatz</b></a><br /><a href="https://github.com/dexpota/kitty-themes/commits?author=scopatz" title="Documentation">📖</a></td>
     <td align="center"><a href="https://rckt.cc"><b>RCKT</b></a><br /><a href="#theme-orangecoloured" title="New theme added to the collection.">😻</a></td>
+    <td align="center"><a href="https://github.com/varmanishant"><b>varmanishant</b></a><br /><a href="#theme-varmanishant" title="New theme added to the collection.">😻</a></td>
   </tr>
 </table>
 
