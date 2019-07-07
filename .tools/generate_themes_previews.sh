@@ -3,7 +3,7 @@
 
 root="$(git rev-parse --show-toplevel)"
 tools="$root/.tools"
-themes="$root/themes"
+themes="$root/monokai"
 
 # new kitty window, return its id
 id=$(kitty @ new-window --title themes --window-type os --cwd "$tools")

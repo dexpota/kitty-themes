@@ -276,8 +276,16 @@ wget -q -O - $(curl -s $COLOR_SCRIPT_REPO | jq '.[] | "\(.path) \(.download_url)
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Molokai/preview.png)
 ### MonaLisa
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/MonaLisa/preview.png)
+### Monokai Classic
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Classic/preview.png)
 ### Monokai Pro
-![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai/preview.png)
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro/preview.png)
+### Monokai Pro (Filter Machine)
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro_(Filter_Machine)/preview.png)
+### Monokai Pro (Filter Octagon)
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro_(Filter_Octagon)/preview.png)
+### Monokai Pro (Filter Ristretto)
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro_(Filter_Ristretto)/preview.png)
 ### Monokai Pro (Filter Spectrum)
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Monokai_Pro_(Filter_Spectrum)/preview.png)
 ### Monokai Soda
