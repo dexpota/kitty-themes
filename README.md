@@ -1,5 +1,5 @@
-[1]: https://github.com/mbadolato/iTerm2-Color-Schemes
-[2]: https://github.com/stark/Color-Scripts/tree/master/color-scripts
+[iterm2-themes]: https://github.com/mbadolato/iTerm2-Color-Schemes
+[color-scripts]: https://github.com/stark/Color-Scripts/tree/master/color-scripts
 [license]: https://opensource.org/licenses/MIT
 [license-badge]:  https://img.shields.io/github/license/dexpota/kitty-themes.svg?style=for-the-badge
 [kitty-themes-previews]: https://github.com/dexpota/kitty-themes-website/tree/master/previews
@@ -23,7 +23,7 @@
 ## About
 
 In this repository you can find a set of themes to personalize your kitty
-terminal, these have been ported from [iTerm2-Color-Schemes][1]. You can find
+terminal, these have been ported from [iTerm2-Color-Schemes][iterm2-themes]. You can find
 the previews for each theme in the [section](#previews) below or in this other
 [repository](kitty-themes-previews).
 
@@ -92,7 +92,7 @@ the entire repo, you have two options to try a theme:
 
 ### Bonus
 
-Try your new theme with one of the scripts in [Color-scripts][2] with this
+Try your new theme with one of the scripts in [Color-scripts][color-scripts] with this
 one-liner (requires `jq`):
 
 ```bash
