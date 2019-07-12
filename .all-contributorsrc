@@ -33,12 +33,44 @@
       "contributions": [
         "theme"
       ]
+    },
+    {
+      "login": "rlerdorf",
+      "name": "Rasmus Lerdorf",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/54641?v=4",
+      "profile": "https://github.com/rlerdorf",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
+    },
+    {
+      "login": "Luflosi",
+      "name": "Luflosi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15217907?v=4",
+      "profile": "https://github.com/Luflosi",
+      "contributions": [
+        "fix"
+      ]
+    },
+    {
+      "login": "connorholyday",
+      "name": "Connor Holyday",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4559119?v=4",
+      "profile": "https://holyday.me",
+      "contributions": [
+        "fix"
+      ]
     }
   ],
   "types": {
     "theme": {
       "symbol": "😻",
-      "description": "New theme added to the collection."
+      "description": "New theme added to the collection"
+    },
+    "fix": {
+      "symbol": "🛠️",
+      "description": "Fixed a theme"
     }
   },
   "contributorsPerLine": 7,
