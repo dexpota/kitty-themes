@@ -1,4 +1,6 @@
 import sys
+import os
+import sys
 
 theme_keys = [
     "cursor", "foreground", "background", "background_opacity", "dynamic_background_opacity", "dim_opacity",
@@ -65,8 +67,12 @@ def print_preview(filename, configuration):
     background = configuration["background"]
     foreground = configuration["foreground"]
 
+    theme = os.path.basename(filename)
+
+    size = len(theme) + (2 + 2 + 16 + 2 + 16 + 1 + 2)
+    print(bg(background, " " * size))
     print(bg(background, "  "), end="")
-    print(bg(background, fg(foreground, filename)), end="")
+    print(bg(background, fg(foreground, theme)), end="")
     print(bg(background, "  "), end="")
 
     c='a'
@@ -86,13 +92,20 @@ def print_preview(filename, configuration):
         c = chr(ord(c) + 1)
 
     print(bg(cursor, " "), end="")
-    print(bg(background, "  "), end="")
+    print(bg(background, "  "))
+    print(bg(background, " " * size))
     print()
 
 
-def main(filename):
-    configuration = read_configuration(filename)
-    print_preview(filename, configuration)
+def main(directory):
+    for filename in os.listdir(directory):
+        try:
+            path = os.path.join(directory, filename)
+            configuration = read_configuration(path)
+            print_preview(path, configuration)
+        except Exception as e:
+            print(e, file=sys.stderr)
+            print("Error while processing %s" % filename, file=sys.stderr)
 
 
 if __name__ == "__main__":
