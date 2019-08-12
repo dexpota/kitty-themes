@@ -39,7 +39,7 @@ the previews for each theme in the [section](#previews) below or in this other
    - or download just one theme:
       ```bash
       THEME=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/3024_Day.conf
-      wget "$THEME" -P ~/.config/kitty/kitty-themes
+      wget "$THEME" -P ~/.config/kitty/kitty-themes/themes
       ```
 
 2. Choose a theme and create a symlink:
