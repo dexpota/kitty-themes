@@ -93,6 +93,30 @@ def print_preview(filename, configuration):
 
     print(bg(cursor, " "), end="")
     print(bg(background, "  "))
+
+    print(bg(background, " " * size))
+
+    print(bg(background, "  "), end="")
+    print(bg(configuration["color0"], " "), end="")
+    print(bg(configuration["color1"], " "), end="")
+    print(bg(configuration["color2"], " "), end="")
+    print(bg(configuration["color3"], " "), end="")
+    print(bg(configuration["color4"], " "), end="")
+    print(bg(configuration["color5"], " "), end="")
+    print(bg(configuration["color6"], " "), end="")
+    print(bg(configuration["color7"], " "), end="")
+    print(bg(background, "  "), end="")
+    print(bg(configuration["color8"], " "), end="")
+    print(bg(configuration["color9"], " "), end="")
+    print(bg(configuration["color10"], " "), end="")
+    print(bg(configuration["color11"], " "), end="")
+    print(bg(configuration["color12"], " "), end="")
+    print(bg(configuration["color13"], " "), end="")
+    print(bg(configuration["color14"], " "), end="")
+    print(bg(configuration["color15"], " "), end="")
+    print(bg(background, " " * (size - 16 - 4)), end="")
+    print()
+
     print(bg(background, " " * size))
     print()
 
