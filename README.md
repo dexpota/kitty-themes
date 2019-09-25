@@ -11,7 +11,7 @@
 > https://github.com/kovidgoyal/kitty
 
 [![License: MIT][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-green.svg?style=for-the-badge)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-green.svg?style=for-the-badge)](#contributors)
 
 - [About](#about)
 - [Installation](#installation)
@@ -450,6 +450,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/rlerdorf"><b>Rasmus Lerdorf</b></a><br /><a href="https://github.com/dexpota/kitty-themes/issues?q=author%3Arlerdorf" title="Bug reports">🐛</a> <a href="#ideas-rlerdorf" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/Luflosi"><b>Luflosi</b></a><br /><a href="#fix-Luflosi" title="Fixed a theme">🛠️</a> <a href="#question-Luflosi" title="Answering Questions">💬</a> <a href="https://github.com/dexpota/kitty-themes/commits?author=Luflosi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://holyday.me"><b>Connor Holyday</b></a><br /><a href="#fix-connorholyday" title="Fixed a theme">🛠️</a></td>
+    <td align="center"><a href="https://github.com/BlueDrink9"><b>BlueDrink9</b></a><br /><a href="https://github.com/dexpota/kitty-themes/issues?q=author%3ABlueDrink9" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
