@@ -113,6 +113,8 @@ wget -q -O - $(curl -s $COLOR_SCRIPT_REPO | jq '.[] | "\(.path) \(.download_url)
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/AlienBlood/preview.png)
 ### Alucard
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Alucard/preview.png)
+### Apprentice
+![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Apprentice/preview.png)
 ### Argonaut
 ![image](https://raw.githubusercontent.com/dexpota/kitty-themes-website/master/previews/Argonaut/preview.png)
 ### Arthur
