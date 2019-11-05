@@ -11,7 +11,7 @@
 > https://github.com/kovidgoyal/kitty
 
 [![License: MIT][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-green.svg?style=for-the-badge)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-green.svg?style=for-the-badge)](#contributors)
 
 - [About](#about)
 - [Installation](#installation)
@@ -443,8 +443,7 @@ wget -q -O - $(curl -s $COLOR_SCRIPT_REPO | jq '.[] | "\(.path) \(.download_url)
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- prettier-ignore -->
 <table>
   <tr>
     <td align="center"><a href="http://www.scopatz.com"><b>Anthony Scopatz</b></a><br /><a href="https://github.com/dexpota/kitty-themes/commits?author=scopatz" title="Documentation">📖</a></td>
@@ -457,11 +456,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/brujoand"><b>Anders Brujordet</b></a><br /><a href="#theme-brujoand" title="New theme added to the collection">😻</a></td>
+    <td align="center"><a href="http://www.hackouts.com"><b>Rajesh Rajendran</b></a><br /><a href="#fix-rjshrjndrn" title="Fixed a theme">🛠️</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
