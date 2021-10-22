@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-find /Users/pbenjamin/Projects/github.com/mbadolato/iTerm2-Color-Schemes/terminal -name "*.terminal" -print0 | while read -d $'\0' -r file; do
+find ~/github.com/mbadolato/iTerm2-Color-Schemes/terminal -name "*.terminal" -print0 | while read -d $'\0' -r file; do
 	filename=`basename "$file"`
 	without_ext=${filename%.*}
 	removed_spaces=${without_ext// /_}
