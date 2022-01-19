@@ -35,7 +35,7 @@ the previews for each theme in the [section](#previews) below or in this other
 1. If you want to download and use one of these theme you have two options:
     - clone the entire *kitty-themes* repository:
       ```bash
-      git clone --depth 1 git@github.com:dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
+      git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
       ```
    - or download just one theme:
       ```bash
