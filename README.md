@@ -75,15 +75,21 @@ you find your theme inside this repository and you want a proper citation.
 ## Previews
 
 If you have followed the [installation](#installation) instructions and cloned
-the entire repo, you have two options to try a theme:
+the entire repo, you have three options to try a theme:
 
-1. If you have enabled remote control in *kitty* you can run this command:
+1. You can open the kitty shell (`ctrl+shift+escape`) and run this command:
+
+    ```bash
+    set-colors -a "~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
+    ```
+
+2. If you have enabled remote control in *kitty* you can run this command:
 
     ```bash
     kitty @ set-colors -a "~/.config/kitty/kitty-themes/themes/AdventureTime.conf"
     ```
 
-2. Otherwise you can start another instance of kitty and specify another config
+3. Otherwise you can start another instance of kitty and specify another config
   file to read from, this will cause *kitty* to read both its normal config
   file and the specified one:
 
