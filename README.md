@@ -65,6 +65,8 @@ with the following command:
 conda install -c conda-forge kitty-themes
 ```
 
+for those new to conda, the theme files can then be found at ~/opt/{anaconda3|miniconda3}/share/kitty-themes on macOS or ~/{anaconda3|miniconda3}/share on linux
+
 ## License
 
 All original content of this repository is licensed with the [MIT
