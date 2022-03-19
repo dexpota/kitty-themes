@@ -65,6 +65,10 @@ with the following command:
 conda install -c conda-forge kitty-themes
 ```
 
+After the installation, you can find the themes in `${ANACONDA_INSTALLATION_DIR}/share/kitty-themes`.
+Please refer to the [the documentation](https://docs.anaconda.com/anaconda/user-guide/faq/) 
+to locate `${ANACONDA_INSTALLATION_DIR}`.
+
 ## License
 
 All original content of this repository is licensed with the [MIT
