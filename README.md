@@ -4,7 +4,7 @@
 [license-badge]:  https://img.shields.io/github/license/dexpota/kitty-themes.svg?style=for-the-badge
 [kitty-themes-previews]: https://github.com/dexpota/kitty-themes-website/tree/master/previews
 
-![kitty-themes](./.github/kitty-themes.jpg)
+![kitty-themes](./.github/kitty-themes.png)
 
 > **Personalize** your *kitty* terminal and choose your theme from this awesome
 > collection, for more information on the terminal visit
